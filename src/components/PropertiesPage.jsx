@@ -54,7 +54,7 @@ export default function PropertiesPage({ initialFilters, onView, isFavorite, onT
         <div className="mb-12 max-w-2xl">
           <span className="eyebrow mb-5">The Full Collection</span>
           <h1 className="font-display text-4xl md:text-5xl text-deep-forest text-balance">
-            Properties For {filters.status === 'Rent' ? 'Rent' : filters.status === 'Buy' ? 'Sale' : 'Sale &amp; Rent'} in London
+            Properties For {filters.status === 'Rent' ? 'Rent' : filters.status === 'Buy' ? 'Sale' : 'Sale & Rent'} in London
           </h1>
         </div>
 
